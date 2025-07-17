@@ -167,6 +167,7 @@ h2 {
 .nav ul {
   display: flex;
   list-style: none;
+  
 }
 
 .nav li a {
@@ -174,6 +175,7 @@ h2 {
   padding: 12px 16px;
   color: white;
   text-decoration: none;
+  
 }
 
 .nav li a:hover {
