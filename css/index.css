@@ -12,6 +12,10 @@ a:hover{
     color:hsl(272, 88%, 50%);
     
 }
+hr{
+  background-color:  rgb(162, 0, 255);
+  height: 5px;
+}
 
 body {
   font-family: Arial, sans-serif;
