@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:hsl(0, 100%, 50%);
+    
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+/* Section chung */
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Categories */
+.category-list {
+  display: flex;
+  gap: 20px;
+}
+
+.category-item {
+  flex: 1;
+  text-align: center;
+  transition: all 500ms;
+}
+.category-item:hover{
+    transform: scale(1.05);
+}
+
+.category-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Products */
+.product-list {
+  display: flex;
+  gap: 20px;
+}
+
+.product-item {
+  flex: 1;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 500ms;
+}
+.product-item:hover{
+    transform:scale(1.1) ;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+/* News */
+.news-list {
+  display: flex;
+  gap: 20px;
+}
+.news-item:hover{
+    transform: scale(1.05);
+}
+
+.news-item {
+  flex: 1;
+  text-align: center;
+  transition: all 500ms;
+}
+
+.news-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.header {
+  border-bottom: 1px solid #eee;
+}
+
+/* Phần trên: logo, search, hotline, cart */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+  display: flex;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: #333;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #c00;
+  font-weight: bold;
+}
+
+/* Phần dưới: nav menu */
+.nav {
+  background: #333;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li a {
+  display: block;
+  padding: 12px 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background: #444;
+}
