@@ -8,6 +8,9 @@ a{
     text-decoration: none;
     color: #0c0c0c;
 }
+h2{
+      font-family: 'Roboto', sans-serif;
+}
 a:hover{
     color:hsl(272, 88%, 50%);
     
@@ -76,6 +79,8 @@ h2 {
   gap: 20px;
 }
 
+
+
 .product-item {
   flex: 1;
   text-align: center;
@@ -83,7 +88,7 @@ h2 {
   border-radius: 8px;
   padding: 10px;
   transition: all 500ms;
-  box-shadow: #333333 2px 3px 3px ;
+  border: 1px solid #0c0c0c;
   
 }
 .product-item:hover{
