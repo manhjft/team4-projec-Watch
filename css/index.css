@@ -89,6 +89,7 @@ h2 {
   padding: 10px;
   transition: all 500ms;
   border: 1px solid #0c0c0c;
+  width: 150px;
   
 }
 .product-item:hover{
