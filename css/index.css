@@ -55,6 +55,17 @@ margin: auto;
   height: auto;
   display: block;
   object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.banner img:hover {
+  transform: scale(1.05);
+}
+
+.trungtam {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 /* Section chung */
@@ -200,15 +211,19 @@ h2 {
 .nav ul {
   display: flex;
   list-style: none;
-  
+  justify-content: left;
 }
 
 .nav li a {
   display: block;
-  padding: 12px 16px;
+  padding: 12px 40px;
   color: white;
   text-decoration: none;
   
+}
+.nav .container {
+  max-width: 1200px;      /* Bề rộng giới hạn */
+  margin: 0 auto;         /* Căn giữa */
 }
 
 .nav li a:hover {
