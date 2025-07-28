@@ -35,11 +35,26 @@ main {
 }
 
 /* Banner */
+.banner {
+display: flex;
+gap: 10px;
+max-width: 1200px;
+margin: auto;
+}
+.anh1 {
+  flex: 2;
+}
+.anh2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .banner img {
   width: 100%;
   height: auto;
   display: block;
-  margin: 20px 0;
+  object-fit: cover;
 }
 
 /* Section chung */
