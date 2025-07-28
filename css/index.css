@@ -163,10 +163,12 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  max-width: 1200px;      /* Bề rộng giới hạn */
+  margin: 0 auto; 
 }
 
 .logo img {
-  height: 60px;
+  height: 80px;
 }
 
 .search-bar {
@@ -174,7 +176,9 @@ h2 {
   margin: 0 20px;
   display: flex;
 }
-
+.search-bar img{
+  height: 20px;
+}
 .search-bar input {
   flex: 1;
   padding: 8px;
@@ -185,7 +189,7 @@ h2 {
 .search-bar button {
   padding: 8px 12px;
   border: 1px solid #ccc;
-  background: #333333;
+  background: #ffffff;
   color: white;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
