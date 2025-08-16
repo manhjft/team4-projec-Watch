@@ -1,0 +1,26 @@
+.baner {
+  display: flex;
+  gap: 10px; /* khoảng cách giữa 2 cột */
+  max-width: 800px;
+  margin: auto;
+}
+.baner1 {
+  flex: 2;
+}
+.baner2 {
+  flex: 1; /* phần nhỏ hơn */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* khoảng cách giữa 2 ảnh nhỏ */
+}
+.baner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  body {
+    background: lightblue;
+  }
+}
