@@ -4,23 +4,21 @@
   box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: #0c0c0c;
+a {
+  text-decoration: none;
+  color: #0c0c0c;
 }
-h2{
-      font-family: 'Roboto', sans-serif;
+h2 {
+  font-family: "Roboto", sans-serif;
 }
-a:hover{
-    color:hsl(272, 88%, 50%);
-    
+a:hover {
+  color: hsl(272, 88%, 50%);
 }
-img{
-   max-width: 100%;
-   
+img {
+  max-width: 100%;
 }
-hr{
-  background-color:  rgb(162, 0, 255);
+hr {
+  background-color: rgb(162, 0, 255);
   height: 5px;
 }
 
@@ -36,10 +34,10 @@ main {
 
 /* Banner */
 .banner {
-display: flex;
-gap: 10px;
-max-width: 1200px;
-margin: auto;
+  display: flex;
+  gap: 10px;
+  max-width: 1200px;
+  margin: auto;
 }
 .anh1 {
   flex: 2;
@@ -90,8 +88,8 @@ h2 {
   text-align: center;
   transition: all 500ms;
 }
-.category-item:hover{
-    transform: scale(1.05);
+.category-item:hover {
+  transform: scale(1.05);
 }
 
 .category-item img {
@@ -105,8 +103,6 @@ h2 {
   gap: 20px;
 }
 
-
-
 .product-item {
   flex: 1;
   text-align: center;
@@ -116,10 +112,9 @@ h2 {
   transition: all 500ms;
   border: 1px solid #0c0c0c;
   width: 150px;
-  
 }
-.product-item:hover{
-    transform:scale(1.05) ;
+.product-item:hover {
+  transform: scale(1.05);
 }
 
 .product-item img {
@@ -137,8 +132,8 @@ h2 {
   display: flex;
   gap: 20px;
 }
-.news-item:hover{
-    transform: scale(1.05);
+.news-item:hover {
+  transform: scale(1.05);
 }
 
 .news-item {
@@ -152,84 +147,113 @@ h2 {
   border-radius: 8px;
 }
 
-.header {
-  border-bottom: 1px solid #eee;
-  background-color: #ffffff;
+/* Container chung để giới hạn và căn giữa */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* thêm khoảng trống 2 bên */
 }
 
-/* Phần trên: logo, search, hotline, cart */
-.header-top {
+.header1 {
+  width: 100%;
+  background: #fff;
+}
+
+/* Header top */
+.header1-top {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  max-width: 1200px;      /* Bề rộng giới hạn */
-  margin: 0 auto; 
+  justify-content: space-between;
+  padding: 8px 0;
 }
 
-.logo img {
-  height: 80px;
-}
-
-.search-bar {
-  flex: 1;
-  margin: 0 20px;
+.header1-left {
   display: flex;
-}
-.search-bar img{
-  height: 20px;
-}
-.search-bar input {
-  flex: 1;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px 0 0 4px;
+  gap: 20px;
 }
 
-.search-bar button {
-  padding: 8px 12px;
-  border: 1px solid #ccc;
-  background: #ffffff;
-  color: white;
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
+.header1-left a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
 }
 
-.header-right {
+.header1-logo img {
+  height: 50px;
+}
+
+.header1-right {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.header-right a {
-  text-decoration: none;
-  color: #c00;
-  font-weight: bold;
+.search-box {
+  display: flex;
+  border-bottom: 1px solid #999;
 }
 
-/* Phần dưới: nav menu */
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header1-right a img {
+  width: 22px;
+  height: 22px;
+}
+
+/* Nav */
 .nav {
-  background-color: #6a1b9a;
+  background: #fafafa;
+}
+
+/* Border chỉ trong container, không tràn toàn màn hình */
+.nav-container {
+  border-top: 2px solid #6a1b9a;
+  border-bottom: 1px solid #ddd;
 }
 
 .nav ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   list-style: none;
-  justify-content: left;
+  padding: 10px 0;
+  margin: 0;
 }
 
-.nav li a {
-  display: block;
-  padding: 12px 40px;
-  color: white;
+.nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #000;
   text-decoration: none;
-  
-}
-.nav .container {
-  max-width: 1200px;      /* Bề rộng giới hạn */
-  margin: 0 auto;         /* Căn giữa */
+  padding: 6px 8px;
+  border-radius: 4px;
 }
 
-.nav li a:hover {
-  background: #444;
+.nav ul li a:hover {
+  color: #6a1b9a;
+  background: #f2f2f2;
+}
+
+.nav .sale {
+  background: red;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-weight: bold;
 }
