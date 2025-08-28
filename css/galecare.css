@@ -1,0 +1,71 @@
+.repair-main {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.feature h3 {
+  margin-top: 15px;
+  color: #0072bc;
+}
+
+.feature p {
+  color: #555;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  background-color: #0072bc;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #005a94;
+}

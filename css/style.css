@@ -237,6 +237,7 @@ body {
   height: 50px;
   background-color: #ccc;
 }
+
 .footer-divider {
   border: none;
   height: 1px;
@@ -259,7 +260,7 @@ body {
   color: #FFEB3B;
 }
 
-.info-tabs .tab-content {
+.info-tabs .tab-content  {
   display: none;
   color: white;
 }
@@ -270,11 +271,14 @@ body {
   gap: 20px;
 }
 
-
 .info-tabs .tab-content .store-card {
   background-color: #6a1b9a;
   border: 1px solid #fff;
   border-radius: 8px;
   padding: 15px;
+}
+
+.info-tabs .tab-content .store-card p{
+  color: #fff;
 }
 
